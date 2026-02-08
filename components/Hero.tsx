@@ -31,7 +31,7 @@ export default function Hero() {
             </h1>
             
             <h2 className="text-base sm:text-lg md:text-xl text-textSecondary mb-6 sm:mb-8 leading-relaxed">
-              Você já construiu a autoridade técnica. Agora, vamos traduzi-la visualmente. O <span className="text-textPrimary font-semibold">Riccelli Brand Kit</span> alinha sua imagem à excelência da sua entrega, preparando seu negócio para novos patamares de valor.
+              Você já construiu a autoridade técnica. Agora, vamos traduzi-la visualmente. O <span className="text-textPrimary font-semibold">Brand Kit</span> alinha sua imagem à excelência da sua entrega, preparando seu negócio para novos patamares de valor.
             </h2>
           </motion.div>
 
