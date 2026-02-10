@@ -47,7 +47,7 @@ export default function CTAFooter() {
       </div>
       
       <footer id="contato" className="mt-12 sm:mt-16 pt-8 sm:pt-12 border-t border-white/10 relative z-10">
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12 mb-8 sm:mb-12">
             {/* Coluna 1 - Sobre */}
             <div>

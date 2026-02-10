@@ -14,7 +14,7 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-19 sm:pt-26 pb-8 sm:pb-12">
-      <div className="max-w-[1400px] mx-auto w-full">
+      <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Coluna Esquerda - Textos */}
           <motion.div
