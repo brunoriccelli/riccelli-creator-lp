@@ -36,7 +36,7 @@ export default function CTAFooter() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <a 
-            href="https://wa.me/5511999999999?text=Olá!%20Quero%20conhecer%20o%20Riccelli%20Creator"
+            href="https://wa.me/5531993044608?text=Olá!%20Quero%20conhecer%20o%20Riccelli%20Creator"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 sm:px-8 py-3.5 sm:py-4 bg-accent text-surface text-base sm:text-lg font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-2xl shadow-accent/20"
@@ -73,8 +73,8 @@ export default function CTAFooter() {
                 </p>
                 <p>
                   <span className="block text-textPrimary font-semibold mb-1">WhatsApp</span>
-                  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="hover:text-brand transition-colors">
-                    +55 (11) 99999-9999
+                  <a href="https://wa.me/5531993044608" target="_blank" rel="noopener noreferrer" className="hover:text-brand transition-colors">
+                    Chamar no WhatsApp
                   </a>
                 </p>
               </div>

@@ -6,18 +6,18 @@ import { Check, Eye, Rocket, Sparkles } from 'lucide-react'
 const benefits = [
   {
     icon: Eye,
-    title: 'Visual Authority',
-    description: 'Logo, Cores e Tipografia definidos para o digital.',
+    title: 'Identidade Visual Validada',
+    description: 'Não é apenas bonito. É um sistema visual desenhado para passar autoridade imediata no digital.',
   },
   {
     icon: Rocket,
-    title: 'High-Ticket Site',
-    description: 'Landing Page One-Page rápida e focada em conversão.',
+    title: 'Landing Page de Alta Conversão',
+    description: 'Um site rápido, persuasivo e desenhado para transformar visitantes em clientes qualificados.',
   },
   {
     icon: Sparkles,
-    title: 'Autonomia Total',
-    description: 'Pack de Templates e Manual de IA para você criar conteúdo sozinho.',
+    title: 'O "Segundo Cérebro" da Marca',
+    description: 'Receba nosso Kit de Criação com IA e Templates. Nunca mais trave na hora de criar conteúdo.',
   },
 ]
 
@@ -33,7 +33,7 @@ export default function Solution() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
-              Não vendemos projetos infinitos. Entregamos <span className="text-accent">Ativos</span>.
+              Elimine a burocracia criativa. Receba uma <span className="text-accent">infraestrutura de marca</span> pronta.
             </h2>
             
             <div className="space-y-6 sm:space-y-8">
@@ -70,16 +70,12 @@ export default function Solution() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-brand/20 to-accent/20 rounded-3xl p-8 sm:p-12 border-2 border-brand/30">
-              <div className="space-y-4 sm:space-y-6">
-                <div className="h-3 sm:h-4 bg-brand/40 rounded-full w-3/4"></div>
-                <div className="h-3 sm:h-4 bg-accent/40 rounded-full w-1/2"></div>
-                <div className="h-3 sm:h-4 bg-brand/40 rounded-full w-5/6"></div>
-                <div className="mt-6 sm:mt-8 grid grid-cols-2 gap-3 sm:gap-4">
-                  <div className="h-24 sm:h-32 bg-surface/50 rounded-xl border border-brand/20"></div>
-                  <div className="h-24 sm:h-32 bg-surface/50 rounded-xl border border-accent/20"></div>
-                </div>
-              </div>
+            <div className="relative rounded-3xl overflow-hidden border-2 border-brand/30">
+              <img 
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" 
+                alt="Laptop mockup"
+                className="w-full h-auto object-cover"
+              />
             </div>
           </motion.div>
         </div>

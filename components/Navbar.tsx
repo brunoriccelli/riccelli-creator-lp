@@ -38,6 +38,12 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center gap-8">
             <a 
+              href="#solucao"
+              className="text-textPrimary hover:text-brand transition-colors duration-300 font-medium"
+            >
+              Solução
+            </a>
+            <a 
               href="#portfolio"
               className="text-textPrimary hover:text-brand transition-colors duration-300 font-medium"
             >
@@ -55,7 +61,7 @@ export default function Navbar() {
             href="#aplicar"
             className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm border-2 border-accent text-accent font-semibold rounded-lg hover:bg-accent hover:text-surface transition-all duration-300"
           >
-            Aplicar Agora
+            Agendar Aplicação
           </a>
         </div>
       </div>

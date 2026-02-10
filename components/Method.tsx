@@ -7,32 +7,32 @@ const steps = [
   {
     icon: Search,
     number: '01',
-    title: 'Identidade Visual Premium',
-    description: 'Logo, cores e tipografia definidos para o digital',
+    title: 'Diagnóstico & Identidade',
+    description: 'Não começamos desenhando. Começamos entendendo seu negócio para criar uma marca que posiciona você como líder.',
   },
   {
     icon: Hammer,
     number: '02',
-    title: 'Site de Alta Performance',
-    description: 'Landing page rápida e focada em conversão',
+    title: 'Construção da Autoridade Digital',
+    description: 'Desenvolvimento da sua Landing Page de Alta Conversão. Rápida, segura e pronta para vender.',
   },
   {
     icon: Package,
     number: '03',
-    title: 'IA Start-Kit',
-    description: 'Templates e manual de IA para criar conteúdo sozinho',
+    title: 'Acelerador de Conteúdo',
+    description: 'Entrega do seu "Segundo Cérebro": templates e IA treinada para você criar conteúdo infinito em minutos.',
   },
   {
     icon: GraduationCap,
     number: '04',
     title: 'Entrega e Treinamento',
-    description: 'Você aprende a usar tudo com autonomia',
+    description: 'Você recebe as chaves do seu novo posicionamento. Tudo pronto para rodar, sem mensalidades ou dependência.',
   },
 ]
 
 export default function Method() {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-surface">
+    <section id="solucao" className="py-12 sm:py-16 px-4 sm:px-6 bg-surface">
       <div className="max-w-7xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}

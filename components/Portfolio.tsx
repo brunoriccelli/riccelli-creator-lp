@@ -5,22 +5,22 @@ import { ExternalLink } from 'lucide-react'
 
 const portfolioItems = [
   {
-    title: 'Consultoria Estratégica Premium',
-    category: 'Consultoria',
-    description: 'Identidade visual completa + Site One-Page + Kit de criação para consultoria de alto ticket.',
-    image: '/portfolio/project1.jpg',
+    title: 'Mentoria Alpha',
+    category: 'Negócios',
+    description: 'Reposicionamento completo para ticket de R$ 5k.',
+    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80',
   },
   {
-    title: 'Mentoria de Liderança',
-    category: 'Mentoria',
-    description: 'Rebranding completo com foco em autoridade e posicionamento executivo.',
-    image: '/portfolio/project2.jpg',
+    title: 'Arquiteta Sênior',
+    category: 'Arquitetura',
+    description: 'Site e marca para atrair clientes de alto padrão.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
   },
   {
-    title: 'Especialista em Finanças',
-    category: 'Especialista',
-    description: 'Brand Kit completo para especialista em planejamento financeiro high-ticket.',
-    image: '/portfolio/project3.jpg',
+    title: 'Consultor Elite',
+    category: 'Finanças',
+    description: 'Transmissão de autoridade e segurança.',
+    image: 'https://images.unsplash.com/photo-1621951753002-e1c2e4d5e6e7?w=800&q=80',
   },
 ]
 
@@ -51,12 +51,14 @@ export default function Portfolio() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="group bg-surface border-2 border-brand/20 rounded-2xl overflow-hidden hover:border-brand transition-all duration-300"
+              className="group bg-surface border-2 border-brand/20 rounded-2xl overflow-hidden hover:border-brand hover:shadow-lg hover:shadow-brand/20 transition-all duration-300"
             >
-              <div className="aspect-video bg-gradient-to-br from-brand/20 to-accent/20 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <ExternalLink className="w-10 h-10 sm:w-12 sm:h-12 text-brand/40 group-hover:text-brand group-hover:scale-110 transition-all duration-300" />
-                </div>
+              <div className="aspect-video relative overflow-hidden">
+                <img 
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               
               <div className="p-5 sm:p-6">
