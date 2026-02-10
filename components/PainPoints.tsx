@@ -23,8 +23,8 @@ const painPoints = [
 
 export default function PainPoints() {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-surface">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-surface">
+      <div className="max-w-[1400px] mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

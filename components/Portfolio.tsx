@@ -26,8 +26,8 @@ const portfolioItems = [
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="py-12 sm:py-16 px-4 sm:px-6 bg-background">
-      <div className="max-w-7xl mx-auto">
+    <section id="portfolio" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-background">
+      <div className="max-w-[1400px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

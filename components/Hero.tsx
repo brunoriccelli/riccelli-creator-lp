@@ -13,14 +13,15 @@ export default function Hero() {
   }
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 pt-19 sm:pt-26 pb-10 sm:pb-16">
-      <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-[1.3fr_0.7fr] gap-8 lg:gap-12 items-center">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-19 sm:pt-26 pb-8 sm:pb-12">
+      <div className="max-w-[1400px] mx-auto w-full">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Coluna Esquerda - Textos */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            className="max-w-2xl"
           >
             <div className="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-brand/10 border border-brand/30 rounded-full mb-4 sm:mb-6">
               <span className="text-brand text-xs sm:text-sm font-semibold">Para Especialistas & Mentores</span>
@@ -40,10 +41,10 @@ export default function Hero() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="bg-surface border-2 border-brand/30 rounded-2xl p-4 sm:p-5"
+            className="bg-surface border-2 border-brand/30 rounded-2xl p-4 sm:p-5 w-full max-w-md mx-auto lg:mx-0"
           >
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-center">Aplicação para Brand Kit</h3>
-            <p className="text-textSecondary text-xs sm:text-sm text-center mb-4">Verificaremos a disponibilidade da agenda para o seu perfil.</p>
+            <p className="text-textSecondary text-xs sm:text-sm text-center mb-4">Vamos entender seu negócio e definir o próximo passo</p>
             
             <form onSubmit={handleSubmit} className="space-y-2.5 sm:space-y-3">
               <div>
