@@ -87,10 +87,10 @@ export default function CTAFooter() {
                 <a href="https://instagram.com/riccellicreator" target="_blank" rel="noopener noreferrer" className="block hover:text-brand transition-colors">
                   Instagram
                 </a>
-                <a href="https://linkedin.com/company/riccellicreator" target="_blank" rel="noopener noreferrer" className="block hover:text-brand transition-colors">
+                <a href="https://www.linkedin.com/in/bruno-riccelli-957278136" target="_blank" rel="noopener noreferrer" className="block hover:text-brand transition-colors">
                   LinkedIn
                 </a>
-                <a href="https://behance.net/riccellicreator" target="_blank" rel="noopener noreferrer" className="block hover:text-brand transition-colors">
+                <a href="https://www.behance.net/brunoriccelli" target="_blank" rel="noopener noreferrer" className="block hover:text-brand transition-colors">
                   Behance
                 </a>
               </div>
