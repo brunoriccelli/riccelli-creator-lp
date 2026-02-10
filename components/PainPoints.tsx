@@ -23,7 +23,7 @@ const painPoints = [
 
 export default function PainPoints() {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-surface">
+    <section id="painpoints" className="py-12 sm:py-16 px-6 sm:px-8 lg:px-12 bg-surface">
       <div className="max-w-7xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}

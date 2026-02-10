@@ -23,7 +23,7 @@ const benefits = [
 
 export default function Solution() {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <section className="py-12 sm:py-16 px-6 sm:px-8 lg:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 sm:gap-16 items-center">
           <motion.div

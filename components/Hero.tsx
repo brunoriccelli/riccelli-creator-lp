@@ -13,7 +13,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-19 sm:pt-26 pb-4 sm:pb-6">
+    <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-19 sm:pt-26 pb-4 sm:pb-6">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Coluna Esquerda - Textos */}
@@ -90,6 +90,32 @@ export default function Hero() {
           </motion.div>
         </div>
       </div>
+      
+      {/* Scroll Indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 1 }}
+        className="hidden lg:block absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer"
+        onClick={() => {
+          document.querySelector('#painpoints')?.scrollIntoView({ behavior: 'smooth' })
+        }}
+      >
+        <div className="flex flex-col items-center gap-2">
+          <span className="text-textSecondary text-xs font-medium">Role para baixo</span>
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+            className="w-6 h-10 border-2 border-brand/40 rounded-full flex items-start justify-center p-2"
+          >
+            <motion.div
+              animate={{ y: [0, 12, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+              className="w-1.5 h-1.5 bg-brand rounded-full"
+            />
+          </motion.div>
+        </div>
+      </motion.div>
     </section>
   )
 }
