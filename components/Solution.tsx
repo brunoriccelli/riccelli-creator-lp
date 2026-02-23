@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { motion } from 'framer-motion'
 import { Check, Eye, Rocket, Sparkles } from 'lucide-react'
@@ -33,7 +33,7 @@ export default function Solution() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
-              Elimine a burocracia criativa. Receba uma <span className="text-accent">infraestrutura de marca</span> pronta.
+              Elimine a burocracia criativa. Receba seus <span className="text-accent">Ativos de Autoridade</span> prontos.
             </h2>
             
             <div className="space-y-6 sm:space-y-8">
