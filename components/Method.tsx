@@ -1,7 +1,7 @@
-﻿'use client'
+'use client'
 
 import { motion } from 'framer-motion'
-import { Search, Hammer, Package, GraduationCap } from 'lucide-react'
+import { Search, Hammer, Package } from 'lucide-react'
 
 const steps = [
   {
@@ -20,13 +20,7 @@ const steps = [
     icon: Package,
     number: '03',
     title: 'Acelerador de Conteúdo',
-    description: 'Entrega do seu "Segundo Cérebro": templates e IA treinada para você criar conteúdo infinito em minutos.',
-  },
-  {
-    icon: GraduationCap,
-    number: '04',
-    title: 'Entrega e Treinamento',
-    description: 'Você recebe as chaves do seu novo posicionamento. Tudo pronto para rodar, sem mensalidades ou dependência.',
+    description: 'Entrega do seu "Segundo Cérebro": templates e IA treinada para você criar conteúdo em minutos.',
   },
 ]
 
@@ -54,7 +48,7 @@ export default function Method() {
           Tudo que você precisa para ter uma marca à altura da sua expertise
         </motion.p>
         
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {steps.map((step, index) => (
             <motion.div
               key={index}
