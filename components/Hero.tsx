@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
@@ -27,7 +27,7 @@ export default function Hero() {
               <span className="text-brand text-xs sm:text-sm font-semibold">Para Especialistas & Mentores</span>
             </div>
             
-            <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-4 sm:mb-6 leading-tight sm:leading-normal">
+            <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-4 sm:mb-6 leading-tight">
               Sua competência é <span className="text-brand">inquestionável</span>. Sua marca deve refletir isso.
             </h1>
             

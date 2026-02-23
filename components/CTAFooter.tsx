@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { motion } from 'framer-motion'
 import { MessageCircle } from 'lucide-react'
@@ -36,12 +36,12 @@ export default function CTAFooter() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <a 
-            href="https://wa.me/5531993044608?text=Olá!%20Quero%20conhecer%20o%20Riccelli%20Creator"
+            href="https://wa.me/5531993044608?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Riccelli%20Creator%20e%20quero%20entender%20como%20o%20Brand%20Kit%20pode%20me%20ajudar."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 sm:px-8 py-3.5 sm:py-4 bg-accent text-surface text-base sm:text-lg font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-2xl shadow-accent/20"
           >
-            Agendar Aplicação
+            Contato
           </a>
         </motion.div>
       </div>
