@@ -63,7 +63,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm border-2 border-accent text-accent font-semibold rounded-lg hover:bg-accent hover:text-surface transition-all duration-300"
           >
-            Contato
+            Saiba Mais
           </a>
         </div>
       </div>
