@@ -26,7 +26,7 @@ export default function CTAFooter() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-base sm:text-lg md:text-xl text-textSecondary mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4"
         >
-          O Riccelli Brand Kit transforma sua imagem em ferramenta de venda. Em vez de depender de terceiros, você ganha controle. Receba sua Identidade Premium, seu Site One-Page e seu Kit de Criação. É o fim do amadorismo e o início do seu posicionamento High-Ticket.
+          O Riccelli Brand Kit transforma sua imagem em ferramenta de venda. Receba sua Identidade Premium, seu Site One-Page e seu Kit de Criação. É o fim do amadorismo e o início do seu posicionamento High-Ticket.
         </motion.p>
         
         <motion.div
