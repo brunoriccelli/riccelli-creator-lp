@@ -13,7 +13,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-19 sm:pt-26 pb-4 sm:pb-6">
+    <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-6">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Coluna Esquerda - Textos */}
