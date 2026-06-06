@@ -6,18 +6,18 @@ import { DollarSign, Palette, Link2 } from 'lucide-react'
 const painPoints = [
   {
     icon: DollarSign,
-    title: 'O Teto Invisível de Preço',
-    description: 'Você sabe que vale mais, mas trava na hora de cobrar High-Ticket porque sua apresentação não sustenta o valor.',
-  },
-  {
-    icon: Palette,
-    title: 'Operacional Caótico',
-    description: 'Em vez de focar na estratégia e no cliente, você perde tempo precioso tentando ser designer, com resultados frustrantes.',
+    title: 'A Primeira Impressão que Afasta Clientes',
+    description: 'Quando um cliente em potencial pesquisa seu nome e encontra um perfil genérico ou sem identidade visual consistente, a decisão já foi tomada — antes mesmo de você abrir a boca.',
   },
   {
     icon: Link2,
-    title: 'A "Vergonha do Link"',
-    description: 'Aquele desconforto de enviar seu portfólio ou site, sabendo que ele parece amador perto da sua entrega real.',
+    title: 'A Insegurança de Compartilhar seu Contato',
+    description: 'Você hesita antes de enviar seu cartão, seu perfil ou seu e-mail porque sabe que a apresentação não reflete a qualidade do que você entrega. Essa sensação tem nome: é falta de marca.',
+  },
+  {
+    icon: Palette,
+    title: 'Parecer "Novo" Mesmo Sendo Experiente',
+    description: 'O mercado não conhece seu histórico no CLT. O que ele vê é a sua apresentação agora — e uma marca amadora comunica exatamente o oposto do que você quer dizer.',
   },
 ]
 
@@ -32,7 +32,7 @@ export default function PainPoints() {
           transition={{ duration: 0.6 }}
           className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 sm:mb-12 px-4"
         >
-          Você entrega excelência. Mas sua marca diz o <span className="text-brand">contrário</span>.
+          Toda a sua experiência. Uma marca que <span className="text-brand">não transmite isso</span>.
         </motion.h2>
         
         <div className="grid md:grid-cols-3 gap-6 sm:gap-8">

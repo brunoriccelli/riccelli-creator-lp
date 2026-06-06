@@ -38,32 +38,24 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center gap-8">
             <a 
-              href="#solucao"
+              href="#como-funciona"
               className="text-textPrimary hover:text-brand transition-colors duration-300 font-medium"
             >
-              Solução
+              Como funciona
             </a>
-            {/* <a 
+            <a 
               href="#portfolio"
               className="text-textPrimary hover:text-brand transition-colors duration-300 font-medium"
             >
               Portfólio
-            </a> */}
-            <a 
-              href="#contato"
-              className="text-textPrimary hover:text-brand transition-colors duration-300 font-medium"
-            >
-              Contato
             </a>
           </div>
           
           <a 
-            href="https://wa.me/5531993044608?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Riccelli%20Creator%20e%20quero%20entender%20como%20o%20Brand%20Kit%20pode%20me%20ajudar."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#formulario"
             className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm border-2 border-accent text-accent font-semibold rounded-lg hover:bg-accent hover:text-surface transition-all duration-300"
           >
-            Saiba Mais
+            Quero minha marca
           </a>
         </div>
       </div>

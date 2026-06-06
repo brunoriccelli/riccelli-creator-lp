@@ -7,26 +7,26 @@ const steps = [
   {
     icon: Search,
     number: '01',
-    title: 'Diagnóstico & Identidade',
-    description: 'Não começamos desenhando. Começamos entendendo seu negócio para criar uma marca que posiciona você como líder.',
+    title: 'Auditoria de Autoridade',
+    description: 'Você preenche um formulário estratégico e eu analiso seu posicionamento atual, seu público e seus concorrentes. O resultado é um documento que define exatamente como sua marca deve ser percebida — antes de qualquer decisão visual.',
   },
   {
     icon: Hammer,
     number: '02',
-    title: 'Construção da Autoridade Digital',
-    description: 'Desenvolvimento da sua Landing Page de Alta Conversão. Rápida, segura e pronta para vender.',
+    title: '3 Conceitos de Posicionamento',
+    description: 'Você recebe três direções criativas com nome, lógica estratégica e referências visuais. Cada conceito representa uma forma diferente de se posicionar — você escolhe o caminho que mais reflete quem você é.',
   },
   {
     icon: Package,
     number: '03',
-    title: 'Acelerador de Conteúdo',
-    description: 'Entrega do seu "Segundo Cérebro": templates e IA treinada para você criar conteúdo em minutos.',
+    title: 'Identidade Estratégica Completa',
+    description: 'Com a direção aprovada, entrego logo, paleta, tipografia, aplicações essenciais e guia de marca — tudo organizado e pronto para você usar em qualquer canal.',
   },
 ]
 
 export default function Method() {
   return (
-    <section id="solucao" className="py-12 sm:py-16 px-6 sm:px-8 lg:px-12 bg-surface">
+    <section id="como-funciona" className="scroll-mt-24 py-12 sm:py-16 px-6 sm:px-8 lg:px-12 bg-surface">
       <div className="max-w-7xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}
@@ -35,7 +35,7 @@ export default function Method() {
           transition={{ duration: 0.6 }}
           className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 sm:mb-6 px-4"
         >
-          O <span className="text-accent">Creator Brand Kit</span> completo.
+          Como funciona o <span className="text-accent">processo</span>.
         </motion.h2>
         
         <motion.p
@@ -45,7 +45,7 @@ export default function Method() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-center text-textSecondary text-base sm:text-lg md:text-xl mb-10 sm:mb-12 px-4"
         >
-          Tudo que você precisa para ter uma marca à altura da sua expertise
+          Um processo estruturado em 3 etapas, da estratégia à entrega final
         </motion.p>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

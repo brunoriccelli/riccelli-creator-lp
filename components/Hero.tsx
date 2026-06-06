@@ -8,7 +8,7 @@ export default function Hero() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const message = `Olá! Quero conhecer o Riccelli Creator\n\nNome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}`
+    const message = `Olá! Quero minha Marca Profissional (Riccelli Creator)\n\nNome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}`
     window.open(`https://wa.me/5531993044608?text=${encodeURIComponent(message)}`, '_blank')
   }
 
@@ -24,15 +24,15 @@ export default function Hero() {
             className="max-w-2xl"
           >
             <div className="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-brand/10 border border-brand/30 rounded-full mb-4 sm:mb-6">
-              <span className="text-brand text-xs sm:text-sm font-semibold">Para Especialistas & Mentores</span>
+              <span className="text-brand text-xs sm:text-sm font-semibold">Para médicos, advogados, psicólogos e profissionais liberais</span>
             </div>
             
             <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-4 sm:mb-6 leading-tight">
-              Sua competência é <span className="text-brand">inquestionável</span>. Sua marca deve refletir isso.
+              Você tem anos de experiência. Sua marca precisa <span className="text-brand">mostrar isso</span>.
             </h1>
             
             <h2 className="text-[0.95rem] sm:text-[1.07rem] md:text-[1.14rem] text-textSecondary mb-6 sm:mb-8 leading-relaxed">
-              Você já construiu a autoridade técnica. Agora, vamos traduzi-la visualmente. O <span className="text-textPrimary font-semibold">Brand Kit</span> alinha sua imagem à excelência da sua entrega, preparando seu negócio para novos patamares de valor.
+              Saindo do CLT, a primeira impressão é tudo — e ela começa pela sua marca. Você recebe uma <span className="text-textPrimary font-semibold">identidade profissional completa</span> para chegar ao mercado parecendo estabelecido desde o primeiro cliente.
             </h2>
           </motion.div>
 
@@ -41,9 +41,10 @@ export default function Hero() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="bg-surface border-2 border-brand/30 rounded-2xl p-4 sm:p-5 w-full max-w-md mx-auto lg:mx-0"
+            id="formulario"
+            className="scroll-mt-28 bg-surface border-2 border-brand/30 rounded-2xl p-4 sm:p-5 w-full max-w-md mx-auto lg:mx-0"
           >
-            <h3 className="text-lg sm:text-xl font-bold mb-2 text-center">Aplicação para Brand Kit</h3>
+            <h3 className="text-lg sm:text-xl font-bold mb-2 text-center">Aplicação para Marca Profissional</h3>
             <p className="text-textSecondary text-xs sm:text-sm text-center mb-4">Vamos entender seu negócio e definir o próximo passo</p>
             
             <form onSubmit={handleSubmit} className="space-y-2.5 sm:space-y-3">
@@ -84,9 +85,13 @@ export default function Hero() {
                 type="submit"
                 className="w-full px-5 sm:px-6 py-2.5 sm:py-3 bg-accent text-surface text-sm sm:text-base font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-2xl shadow-accent/20"
               >
-                Quero meu Brand Kit
+                Quero minha Marca Profissional
               </button>
             </form>
+
+            <p className="text-textSecondary text-[0.7rem] sm:text-xs text-center mt-3 leading-relaxed">
+              ✓ Processo estruturado &nbsp;|&nbsp; ✓ Inclui guia de marca &nbsp;|&nbsp; ✓ Arquivos em todos os formatos
+            </p>
           </motion.div>
         </div>
       </div>

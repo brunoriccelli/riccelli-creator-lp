@@ -16,7 +16,7 @@ export default function CTAFooter() {
           transition={{ duration: 0.6 }}
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 leading-tight px-4"
         >
-          Você é a melhor opção técnica, mas o mercado está escolhendo outros por causa da <span className="text-accent">embalagem</span>.
+          O mercado não conhece seu currículo. Ele vê sua <span className="text-accent">marca</span>.
         </motion.h2>
         
         <motion.p
@@ -26,7 +26,7 @@ export default function CTAFooter() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-base sm:text-lg md:text-xl text-textSecondary mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4"
         >
-          O Riccelli Brand Kit transforma sua imagem em ferramenta de venda. Receba sua Identidade Premium, seu Site One-Page e seu Kit de Criação. É o fim do amadorismo e o início do seu posicionamento High-Ticket.
+          Chegue ao mercado com uma identidade que comunica, de imediato, que você é a escolha certa.
         </motion.p>
         
         <motion.div
@@ -36,13 +36,15 @@ export default function CTAFooter() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <a 
-            href="https://wa.me/5531993044608?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Riccelli%20Creator%20e%20quero%20entender%20como%20o%20Brand%20Kit%20pode%20me%20ajudar."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#formulario"
             className="inline-block px-6 sm:px-8 py-3.5 sm:py-4 bg-accent text-surface text-base sm:text-lg font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-2xl shadow-accent/20"
           >
-            Contato
+            Quero minha Marca Profissional
           </a>
+
+          <p className="text-textSecondary text-xs sm:text-sm mt-4">
+            Investimento: R$ 1.997 &nbsp;|&nbsp; Processo em 3 etapas &nbsp;|&nbsp; Vagas limitadas por mês
+          </p>
         </motion.div>
       </div>
       
@@ -57,7 +59,7 @@ export default function CTAFooter() {
                 className="h-7 sm:h-8 w-auto mb-3 sm:mb-4"
               />
               <p className="text-textSecondary text-sm sm:text-base leading-relaxed">
-                Transformamos especialistas e mentores em marcas premium através do nosso Brand Kit completo.
+                Ajudamos profissionais liberais em transição do CLT a chegar ao mercado com uma marca profissional completa.
               </p>
             </div>
             

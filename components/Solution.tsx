@@ -6,18 +6,18 @@ import { Check, Eye, Rocket, Sparkles } from 'lucide-react'
 const benefits = [
   {
     icon: Eye,
-    title: 'Identidade Visual Validada',
-    description: 'Não é apenas bonito. É um sistema visual desenhado para passar autoridade imediata no digital.',
-  },
-  {
-    icon: Rocket,
-    title: 'Landing Page de Alta Conversão',
-    description: 'Um site rápido, persuasivo e desenhado para transformar visitantes em clientes qualificados.',
+    title: 'Identidade Estratégica',
+    description: 'Não é só logo e cores. É um sistema visual construído para comunicar exatamente quem você é e para quem você trabalha — projetado para gerar confiança imediata.',
   },
   {
     icon: Sparkles,
-    title: 'O "Segundo Cérebro" da Marca',
-    description: 'Receba nosso Kit de Criação com IA e Templates. Nunca mais trave na hora de criar conteúdo.',
+    title: 'Posicionamento Antes do Visual',
+    description: 'Antes de desenhar qualquer coisa, definimos juntos como você quer ser percebido pelo mercado. O design vem depois — e reflete uma decisão estratégica, não uma preferência estética.',
+  },
+  {
+    icon: Rocket,
+    title: 'Pronto para Usar em Qualquer Canal',
+    description: 'Você recebe todos os arquivos organizados — redes sociais, documentos, apresentações, cartão de visita — acompanhados de um guia de marca claro para que cada nova peça mantenha a consistência e a força da sua identidade.',
   },
 ]
 
@@ -33,7 +33,7 @@ export default function Solution() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
-              Elimine a burocracia criativa. Receba seus <span className="text-accent">Ativos de Autoridade</span> prontos.
+              Uma marca que comunica sua experiência <span className="text-accent">antes de você dizer uma palavra</span>.
             </h2>
             
             <div className="space-y-6 sm:space-y-8">
