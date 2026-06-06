@@ -13,7 +13,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-6">
+    <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-16 sm:pt-20 pb-8 sm:pb-6">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Coluna Esquerda - Textos */}
@@ -23,10 +23,6 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-2xl"
           >
-            <div className="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-brandLight/10 border border-brandLight/40 rounded-full mb-3 sm:mb-4">
-              <span className="text-brandLight text-xs sm:text-sm font-semibold">Para médicos, advogados, psicólogos e profissionais liberais</span>
-            </div>
-            
             <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-3 sm:mb-4 leading-[1.15]">
               Você tem anos de experiência. Sua marca precisa <span className="text-brandLight">mostrar isso</span>.
             </h1>
