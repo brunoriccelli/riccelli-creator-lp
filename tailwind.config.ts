@@ -12,6 +12,7 @@ const config: Config = {
         background: '#0B121A',
         surface: '#131E29',
         brand: '#3056D3',
+        brandLight: '#38BDF8',
         accent: '#C4D600',
         danger: '#D9381E',
         textPrimary: '#F3F4F6',

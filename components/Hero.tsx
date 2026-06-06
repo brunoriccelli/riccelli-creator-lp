@@ -23,15 +23,15 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-2xl"
           >
-            <div className="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-brand/10 border border-brand/30 rounded-full mb-4 sm:mb-6">
-              <span className="text-brand text-xs sm:text-sm font-semibold">Para médicos, advogados, psicólogos e profissionais liberais</span>
+            <div className="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-brandLight/10 border border-brandLight/40 rounded-full mb-3 sm:mb-4">
+              <span className="text-brandLight text-xs sm:text-sm font-semibold">Para médicos, advogados, psicólogos e profissionais liberais</span>
             </div>
             
-            <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-4 sm:mb-6 leading-tight">
-              Você tem anos de experiência. Sua marca precisa <span className="text-brand">mostrar isso</span>.
+            <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-3 sm:mb-4 leading-[1.15]">
+              Você tem anos de experiência. Sua marca precisa <span className="text-brandLight">mostrar isso</span>.
             </h1>
             
-            <h2 className="text-[0.95rem] sm:text-[1.07rem] md:text-[1.14rem] text-textSecondary mb-6 sm:mb-8 leading-relaxed">
+            <h2 className="text-[0.95rem] sm:text-[1.07rem] md:text-[1.14rem] text-textSecondary leading-relaxed">
               Saindo do CLT, a primeira impressão é tudo — e ela começa pela sua marca. Você recebe uma <span className="text-textPrimary font-semibold">identidade profissional completa</span> para chegar ao mercado parecendo estabelecido desde o primeiro cliente.
             </h2>
           </motion.div>
@@ -42,7 +42,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             id="formulario"
-            className="scroll-mt-28 bg-surface border-2 border-brand/30 rounded-2xl p-4 sm:p-5 w-full max-w-md mx-auto lg:mx-0"
+            className="scroll-mt-28 bg-surface border-2 border-brand/30 rounded-2xl p-6 sm:p-8 w-full max-w-md mx-auto lg:ml-auto lg:mr-0"
           >
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-center">Aplicação para Marca Profissional</h3>
             <p className="text-textSecondary text-xs sm:text-sm text-center mb-4">Vamos entender seu negócio e definir o próximo passo</p>
@@ -55,7 +55,7 @@ export default function Hero() {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-3 py-2 text-xs sm:text-sm bg-background border border-brand/20 rounded-lg text-textPrimary placeholder-textSecondary focus:outline-none focus:border-brand transition-colors"
+                  className="w-full px-3 py-2.5 text-xs sm:text-sm bg-white/5 border border-white/15 rounded-lg text-textPrimary placeholder-slate-300 focus:outline-none focus:border-brandLight transition-colors"
                 />
               </div>
               
@@ -66,7 +66,7 @@ export default function Hero() {
                   required
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-3 py-2 text-xs sm:text-sm bg-background border border-brand/20 rounded-lg text-textPrimary placeholder-textSecondary focus:outline-none focus:border-brand transition-colors"
+                  className="w-full px-3 py-2.5 text-xs sm:text-sm bg-white/5 border border-white/15 rounded-lg text-textPrimary placeholder-slate-300 focus:outline-none focus:border-brandLight transition-colors"
                 />
               </div>
               
@@ -77,7 +77,7 @@ export default function Hero() {
                   required
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="w-full px-3 py-2 text-xs sm:text-sm bg-background border border-brand/20 rounded-lg text-textPrimary placeholder-textSecondary focus:outline-none focus:border-brand transition-colors"
+                  className="w-full px-3 py-2.5 text-xs sm:text-sm bg-white/5 border border-white/15 rounded-lg text-textPrimary placeholder-slate-300 focus:outline-none focus:border-brandLight transition-colors"
                 />
               </div>
               
