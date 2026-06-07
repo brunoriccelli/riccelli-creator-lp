@@ -8,8 +8,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Riccelli Creator - Transforme seu Negócio em Marca Premium',
-  description: 'O Riccelli Creator transforma seu negócio em uma Marca Premium em 4 semanas. Identidade, Site e Templates prontos para usar.',
+  title: 'Riccelli Creator - Marca Profissional para Profissionais Liberais',
+  description: 'Identidade de marca estratégica para quem está saindo do CLT. Auditoria de autoridade, 3 conceitos de posicionamento e identidade completa para chegar ao mercado com credibilidade.',
 }
 
 export default function RootLayout({
