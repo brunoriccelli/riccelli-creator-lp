@@ -24,11 +24,11 @@ export default function Hero() {
             className="max-w-2xl"
           >
             <h1 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.85rem] lg:text-[3.42rem] font-bold mb-3 sm:mb-4 leading-[1.15]">
-              Você tem anos de experiência. Sua marca precisa <span className="text-brandLight">mostrar isso</span>.
+              Sua competência é real. Sua marca precisa <span className="text-brandLight">comunicar isso</span>.
             </h1>
             
-            <h2 className="text-[0.95rem] sm:text-[1.07rem] md:text-[1.14rem] text-textSecondary leading-relaxed">
-              Saindo do CLT, a primeira impressão é tudo — e ela começa pela sua marca. Você recebe uma <span className="text-textPrimary font-semibold">identidade profissional completa</span> para chegar ao mercado parecendo estabelecido desde o primeiro cliente.
+            <h2 className="text-[0.85rem] sm:text-[0.95rem] md:text-[1rem] text-textSecondary leading-relaxed">
+              Saindo do CLT, a primeira impressão é tudo — e ela começa pela sua marca. Profissionais com marca bem posicionada chegam ao mercado gerando <span className="text-textPrimary font-semibold">confiança imediata</span>, sem precisar explicar quem são. É isso que construímos juntos.
             </h2>
           </motion.div>
 
@@ -86,7 +86,7 @@ export default function Hero() {
             </form>
 
             <p className="text-textSecondary text-[0.7rem] sm:text-xs text-center mt-3 leading-relaxed">
-              ✓ Processo estruturado &nbsp;|&nbsp; ✓ Inclui guia de marca &nbsp;|&nbsp; ✓ Arquivos em todos os formatos
+              ✓ Sem compromisso &nbsp;|&nbsp; ✓ Resposta em até 24h &nbsp;|&nbsp; ✓ Vagas limitadas
             </p>
           </motion.div>
         </div>

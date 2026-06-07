@@ -1,21 +1,21 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Check, Eye, Rocket, Sparkles } from 'lucide-react'
+import { Fingerprint, Target, FolderOpen } from 'lucide-react'
 
 const benefits = [
   {
-    icon: Eye,
+    icon: Fingerprint,
     title: 'Identidade Estratégica',
     description: 'Não é só logo e cores. É um sistema visual construído para comunicar exatamente quem você é e para quem você trabalha — projetado para gerar confiança imediata.',
   },
   {
-    icon: Sparkles,
+    icon: Target,
     title: 'Posicionamento Antes do Visual',
     description: 'Antes de desenhar qualquer coisa, definimos juntos como você quer ser percebido pelo mercado. O design vem depois — e reflete uma decisão estratégica, não uma preferência estética.',
   },
   {
-    icon: Rocket,
+    icon: FolderOpen,
     title: 'Pronto para Usar em Qualquer Canal',
     description: 'Você recebe todos os arquivos organizados — redes sociais, documentos, apresentações, cartão de visita — acompanhados de um guia de marca claro para que cada nova peça mantenha a consistência e a força da sua identidade.',
   },
@@ -46,15 +46,12 @@ export default function Solution() {
                   transition={{ duration: 0.6, delay: index * 0.2 }}
                   className="flex gap-3 sm:gap-4"
                 >
-                  <div className="flex-shrink-0">
-                    <Check className="w-6 h-6 sm:w-8 sm:h-8 text-accent" />
-                  </div>
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 flex items-center gap-2 sm:gap-3">
                       <benefit.icon className="w-5 h-5 sm:w-6 sm:h-6 text-brand" />
                       {benefit.title}
                     </h3>
-                    <p className="text-textSecondary text-sm sm:text-base md:text-lg leading-relaxed">
+                    <p className="text-textSecondary text-sm sm:text-base font-light leading-relaxed">
                       {benefit.description}
                     </p>
                   </div>
@@ -72,8 +69,8 @@ export default function Solution() {
           >
             <div className="relative rounded-3xl overflow-hidden border-2 border-brand/30">
               <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" 
-                alt="Laptop mockup"
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80" 
+                alt="Mockup de identidade de marca"
                 className="w-full h-auto object-cover"
               />
             </div>
