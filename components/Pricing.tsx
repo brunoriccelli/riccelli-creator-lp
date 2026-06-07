@@ -8,7 +8,7 @@ const includes = [
   '3 Conceitos de Posicionamento',
   'Logo + versões',
   'Paleta + Tipografia',
-  'Aplicações essenciais',
+  'Aplicações essenciais (cartão de visita, avatar, cabeçalho)',
   'Guia de marca (1 página)',
   'Arquivos em todos os formatos',
 ]
@@ -27,7 +27,8 @@ export default function Pricing() {
           <h2 className="text-xl sm:text-2xl font-bold mb-2">Marca Profissional</h2>
           <div className="mb-6">
             <span className="text-4xl sm:text-5xl font-bold text-accent">R$ 1.997</span>
-            <p className="text-textSecondary text-sm sm:text-base mt-1">incluso:</p>
+            <p className="text-textSecondary text-sm sm:text-base font-light mt-2">Tudo que você precisa para chegar ao mercado com credibilidade.</p>
+            <p className="text-textSecondary text-sm sm:text-base mt-3">incluso:</p>
           </div>
 
           <ul className="space-y-3 text-left max-w-md mx-auto mb-8">

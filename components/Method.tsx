@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Search, Hammer, Package } from 'lucide-react'
+import { Search, LayoutTemplate, Fingerprint } from 'lucide-react'
 
 const steps = [
   {
@@ -11,15 +11,15 @@ const steps = [
     description: 'Você preenche um formulário estratégico e eu analiso seu posicionamento atual, seu público e seus concorrentes. O resultado é um documento que define exatamente como sua marca deve ser percebida — antes de qualquer decisão visual.',
   },
   {
-    icon: Hammer,
+    icon: LayoutTemplate,
     number: '02',
     title: '3 Conceitos de Posicionamento',
     description: 'Você recebe três direções criativas com nome, lógica estratégica e referências visuais. Cada conceito representa uma forma diferente de se posicionar — você escolhe o caminho que mais reflete quem você é.',
   },
   {
-    icon: Package,
+    icon: Fingerprint,
     number: '03',
-    title: 'Identidade Estratégica Completa',
+    title: 'Identidade Completa',
     description: 'Com a direção aprovada, entrego logo, paleta, tipografia, aplicações essenciais e guia de marca — tudo organizado e pronto para você usar em qualquer canal.',
   },
 ]
@@ -43,7 +43,7 @@ export default function Method() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-center text-textSecondary text-base sm:text-lg md:text-xl mb-10 sm:mb-12 px-4"
+          className="text-center text-textSecondary text-sm sm:text-base font-light mb-10 sm:mb-12 px-4"
         >
           Um processo estruturado em 3 etapas, da estratégia à entrega final
         </motion.p>
@@ -67,7 +67,7 @@ export default function Method() {
                 
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">{step.title}</h3>
                 
-                <p className="text-textSecondary text-sm sm:text-base leading-relaxed">
+                <p className="text-textSecondary text-sm sm:text-base font-light leading-relaxed">
                   {step.description}
                 </p>
               </div>

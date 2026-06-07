@@ -22,8 +22,12 @@ const faqs = [
     answer: 'Não. A Auditoria de Autoridade existe justamente para construir essa clareza juntos. Você precisa saber o que faz e para quem — o restante a gente define no processo.',
   },
   {
+    question: 'Preciso preparar alguma coisa antes de começar?',
+    answer: 'Não. Após a confirmação, você recebe um formulário estratégico para preencher no seu tempo — é a partir dele que o processo começa.',
+  },
+  {
     question: 'Vocês fazem site ou redes sociais?',
-    answer: 'Não neste pacote. O foco é a identidade estratégica — a base que sustenta tudo que vem depois. Site e outros materiais podem ser desenvolvidos em projetos separados.',
+    answer: 'Não neste pacote. O foco é a identidade estratégica — a base que sustenta tudo que vem depois. Outros materiais e canais podem ser desenvolvidos em etapas seguintes.',
   },
 ]
 
